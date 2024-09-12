@@ -20,6 +20,11 @@ body {
   border-radius: 50%;
   width: 48px;
   height: 48px;
+  display: flex;
+  justify-content: space-between;
+  margin-right: 20px;
+  gap: 8px;
+  margin:auto;
 }
 
 .logo {
@@ -27,6 +32,8 @@ body {
   font-size: 32px;
   font-weight: 900;
   font-style: italic;
+  display: flex;
+  padding-left: 16px;
 }
 
 button {
@@ -34,15 +41,48 @@ button {
   border-radius: 8px;
   background: rebeccapurple;
   color: white;
-  padding: 8px 24px;
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+  align-items: center;
+  height: 50%;
+  padding-top: 8px;
+  padding-right: 16px;
+  padding-bottom: 8px;
+  padding-left: 16px;
+  gap: 8px;
+  margin:auto;
+ 
 }
 
 a {
   /* this removes the line under our links */
   text-decoration: none;
   color: rebeccapurple;
+  padding-top: 8px;
+  padding-right: 16px;
+  padding-bottom: 8px;
+  padding-left: 16px;
 }
 
 ul {
   list-style-type: none;
+  display:flex;
+  margin-right: 10px;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  margin-right: 10px;
+}
+
+.buttoncontainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin:auto;
+  margin-right: 20px;
+  gap: 8px;
 }
